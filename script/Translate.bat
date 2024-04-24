@@ -12,12 +12,12 @@ echo Please select a valid option
 goto choice
 
 :translate
-cd /D C:\Users\suyun\OneDrive\Project\translate
+cd /D C:\Users\suyun\OneDrive\Project\LangCraftAI\src
 D:\software\anaconda3\envs\API\python.exe GUI.py
 goto end
 
 :pdftotxt
-cd /D C:\Users\suyun\OneDrive\Project\translate\test
+cd /D C:\Users\suyun\OneDrive\Project\LangCraftAI\test
 D:\software\anaconda3\envs\API\python.exe pdftotxt.py
 goto end
 

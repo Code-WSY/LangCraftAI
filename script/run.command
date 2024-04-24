@@ -9,12 +9,10 @@ read -p "Enter your choice: " choice
 
 case $choice in
     1)
-        cd /Users/suyun/OneDrive/Project/translate/src
-        /usr/local/bin/python GUI.py
+        /Users/zhengshanji/anaconda3/envs/GPT/bin/python ../src/GUI.py
         ;;
     2)
-        cd /Users/suyun/OneDrive/Project/translate/test
-        /usr/local/bin/python pdftotxt.py
+        /Users/zhengshanji/anaconda3/envs/GPT/bin/python ../src/pdftotxt.py
         ;;
     *)
         echo "输入无效，请输入 1 或 2。"
